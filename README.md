@@ -11,6 +11,10 @@ This repository contains the transcripts of the speech data in the [Deep Noise S
 Currently, the transcripts are available for the following test sets:
 
   * [DNS1](https://github.com/microsoft/DNS-Challenge/tree/interspeech2020/master) - Interspeech 2020
+    * [tt_synthetic_no_reverb](https://github.com/Emrys365/DNS_text/tree/main/DNS1/tt_synthetic_no_reverb)
+      * After [text normalization](https://huggingface.co/openai/whisper-large-v2#evaluation), WER of Whisper Large v2 on the clean speech (reference signal) is 4.4%.
+    * [tt_synthetic_with_reverb](https://github.com/Emrys365/DNS_text/tree/main/DNS1/tt_synthetic_with_reverb)
+      * After [text normalization](https://huggingface.co/openai/whisper-large-v2#evaluation), WER of Whisper Large v2 on the reverberant clean speech (reference signal) is 8.9%.
 
 ## Disclaimer
 
